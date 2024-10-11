@@ -1,0 +1,5 @@
+(executable
+ (public_name ovcs)
+ (name main)
+ (modules main init)
+ (libraries ovcs unix cmdliner))
